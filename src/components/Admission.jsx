@@ -28,7 +28,7 @@ const Admission = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#6a89cc] py-12 px-4 sm:px-6 lg:px-8">
+    <div className="bg-[#6a89cc] py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-bold text-white mb-4">Admission</h1>
@@ -52,7 +52,7 @@ une épreuve de français niveau B2 et d’une épreuve de mathématiques niveau
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <button className="px-8 py-3 border-3 text-xl text-white font-medium rounded-lg hover:bg-[#001a44] hover:border-none transition duration-300 shadow-md">
+          <button className="px-8 py-3 border-3 text-xl text-white font-medium rounded-lg hover:bg-[#001a44] hover:border-[#001a44] transition duration-300 shadow-md">
             Inscrivez-vous ici
           </button>
           <button className="px-8 py-3 bg-[#001a44] text-xl text-white font-medium rounded-lg hover:bg-gray-300 transition duration-300 shadow-md hover:text-[#001a44]">

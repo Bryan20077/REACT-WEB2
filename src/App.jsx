@@ -5,6 +5,8 @@ import Prof from './components/Prof';
 import Debouches from './components/Debouches';
 import Domaines from './components/Domaines';
 import Admission from './components/Admission';
+import Programme from './components/Programme';
+import Apprentissage from './components/Apprentissage';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Debouches />
       <Domaines />
       <Admission />
+      <Programme />
+      <Apprentissage />
     
     </>
   );
