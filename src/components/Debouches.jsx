@@ -2,7 +2,7 @@ import React from 'react';
 
 const Debouches = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-20">
+    <div className="min-h-screen bg-white py-12 px-4 sm:px-6 lg:px-20">
       <div className=" mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           <div className="lg:w-1/2">
