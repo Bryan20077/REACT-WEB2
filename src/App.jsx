@@ -1,5 +1,5 @@
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+
+import Home from './components/Home';
 import About from './components/About';
 import Prof from './components/Prof';
 import Debouches from './components/Debouches';
@@ -14,8 +14,8 @@ import Footer from './components/Footer';
 function App() {
   return (
     <>
-      <Navbar />
-      <Hero />
+      
+      <Home />
       <About />
       <Prof />
       <Debouches />
