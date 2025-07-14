@@ -1,7 +1,7 @@
 function Navbar() {
   return (
-    <nav className="bg-[#001a44] text-white flex items-center justify-between px-8 py-6">
-      <div className="text-yellow-400 text-4xl font-bold">HEI</div>
+    <nav className="bg-[#001a44] text-white flex items-center justify-arround px-8 py-6">
+      <img src="src/assets/firstPage_files/cropped-Logo-e1662790239183.png" alt=""  className="h-15"/>
       <ul className="hidden md:flex space-x-6 font-semibold text-xl ml-125">
         <li className="text-yellow-400 cursor-pointer">ACCUEIL</li>
         <li className="cursor-pointer">ACTUALITÉS</li>
