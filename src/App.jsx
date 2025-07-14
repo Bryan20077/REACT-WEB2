@@ -7,6 +7,8 @@ import Domaines from './components/Domaines';
 import Admission from './components/Admission';
 import Programme from './components/Programme';
 import Apprentissage from './components/Apprentissage';
+import Langages from './components/Langages';
+import Partenaires from './components/Partenaires';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Admission />
       <Programme />
       <Apprentissage />
+      <Langages />
+      <Partenaires />
     
     </>
   );
