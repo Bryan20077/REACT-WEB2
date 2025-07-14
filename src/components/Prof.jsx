@@ -31,14 +31,14 @@ const Prof = () => {
         Notre équipe pédagogique se compose d’experts nationaux et internationaux de l’informatique, de la cybersécurité, de l’intelligence artificielle, dont un ingénieur chez Google. Ils sont passionnés par l’informatique et sont engagés vers l’excellence. Nous sommes conscients que cette équipe est la pierre angulaire de l’employabilité de nos étudiants, elle a été soigneusement sélectionnée.
         </p>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 flex justify-center items-center gap-8 p-8 rounded-lg">
           {teamMembers.map((member) => (
-            <div key={member.id} className="bg-white rounded-lg shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 h-110">
+            <div key={member.id} className="bg-white rounded-2xl shadow-md overflow-hidden transition-transform duration-300 hover:scale-105 h-100 w-90">
               <div className="p-4 flex justify-center">
                 <img 
                   src={member.image} 
                   alt={member.name}
-                  className="w-50 h-50 rounded-full object-cover border-4 border-gray-100"
+                  className="w-50 h-50 rounded-full object-cover border-10 border-gray-200"
                 />
               </div>
               

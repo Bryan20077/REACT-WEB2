@@ -4,6 +4,7 @@ import About from './components/About';
 import Prof from './components/Prof';
 import Debouches from './components/Debouches';
 import Domaines from './components/Domaines';
+import Admission from './components/Admission';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Prof />
       <Debouches />
       <Domaines />
+      <Admission />
     
     </>
   );
