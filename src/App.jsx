@@ -9,6 +9,7 @@ import Programme from './components/Programme';
 import Apprentissage from './components/Apprentissage';
 import Langages from './components/Langages';
 import Partenaires from './components/Partenaires';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Apprentissage />
       <Langages />
       <Partenaires />
+      <Footer />
     
     </>
   );
